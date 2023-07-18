@@ -1,0 +1,19 @@
+body{
+    font-family: Bruno Ace SC;
+    background: #000;
+}
+.main{
+    padding: 40px 312px 0 312px;
+}
+.main ul {
+    display: flex;
+    align-items: flex-start;
+    gap: 61px;
+}
+.main ul li{
+    color: #D1D1D1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
