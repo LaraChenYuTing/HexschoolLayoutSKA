@@ -21,7 +21,7 @@ body{
     display: flex;
     padding: 72px 312px;
 }
-.introduce{
+.name{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,4 +62,30 @@ h1{
     justify-content: center;
     align-items: center;
     width: 185px;
+}
+.area2{
+    background: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png?raw=true");
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 160px 320px;
+}
+h4{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.introduction{
+    width: 536px;
+}
+.introduction h4{
+    margin: 36px 0 32px 0;
+}
+.introduction ul{
+  display: inline-flex; 
+}
+.introduction img{
+    height: 98px;
 }
