@@ -25,10 +25,9 @@
         <h2>RESUME</h2>
     </div>
     <div class="rectangle">
-        <p>I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing</br> interfaces for web and
-            mobile apps.</br> Proficient in Sketch, Adobe XD, Figma,</br> HTML, CSS, and JavaScript. I enjoy</br>
-            collaborating with
-            others to create high-</br>quality products.</p>
+        <p>I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and
+            mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating
+            with others to create high-quality products.</p>
     </div>
     <div class="content">
         <ul>
@@ -89,10 +88,14 @@
 </html>
 
 <style>
+    body {
+        font-family: Castoro;
+
+    }
+
     h1 {
         font: 1em sans-serif;
         color: #000;
-        font-family: Castoro;
         font-size: 128px;
         font-style: normal;
         font-weight: 400;
@@ -102,7 +105,6 @@
 
     h2 {
         color: #000;
-        font-family: Castoro;
         font-size: 128px;
         font-style: normal;
         font-weight: 400;
@@ -112,7 +114,6 @@
 
     h3 {
         color: #AE0000;
-        font-family: Castoro;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
@@ -124,7 +125,6 @@
 
     h4 {
         color: #000;
-        font-family: Castoro;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -133,7 +133,6 @@
 
     h5 {
         color: #949494;
-        font-family: Castoro;
         font-size: 20px;
         font-style: italic;
         font-weight: 400;
@@ -142,14 +141,12 @@
 
     p {
         color: #000;
-        font-family: Castoro;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: 48px;
-        width: 636px;
         margin: 0 312px 0 auto;
-        padding: 48px 0;
+        width: 636px;
     }
 
     .title {
@@ -177,8 +174,10 @@
     .rectangle {
         width: 100%;
         height: 432px;
-        flex-shrink: 0;
         background: #EFEFEF;
+        padding: 48px 312px;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .bottomRectangle {
