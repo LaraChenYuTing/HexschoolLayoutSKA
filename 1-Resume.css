@@ -1,34 +1,48 @@
 
 body {
     font-family: Castoro;
+    font-style: normal;
+    line-height: 1.5;
 }
 
 .container {
-    width: 100%;
+    padding: 160px 312px;
+}
+.header{
+    padding-bottom: 0;
+}
+.content{
+    padding-top:0; 
+
 }
 
+.center {
+    background: #EFEFEF;
+    padding: 48px 312px;
+    display: flex;
+    justify-content: flex-end;
+}
 h1 {
     color: #000;
     font-size: 128px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 0;
     letter-spacing: 15.36px;
+}
+.vito{
+    margin: 0 auto;
+    width: 636px;
 }
 
 h2 {
     color: #000;
     font-size: 128px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 0;
     letter-spacing: 15.36px;
 }
 
 h3 {
     color: #AE0000;
     font-size: 40px;
-    font-style: normal;
     font-weight: 400;
     border-bottom: 3px solid #AE0000;
 }
@@ -36,7 +50,6 @@ h3 {
 h4 {
     color: #000;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
 }
 
@@ -50,52 +63,29 @@ h5 {
 p {
     color: #000;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
     width: 636px;
 }
 
-.title {
-    margin: 160px auto auto 312px;
-}
-
-.img {
-    width: 636px;
-    margin: 0 auto;
-    vertical-align: middle;
-
-}
 
 .subtitle {
-    width: 622px;
-    margin: 0 326px 0 auto;
+    text-align: right;
 }
 
 .content ul {
-    width: 636px;
-    margin: 0 auto 0 312px;
     list-style-type: none;
 }
 
-.rectangle {
-    background: #EFEFEF;
-    padding: 48px 312px;
 
-    justify-content: flex-end;
-}
-
-.bottomRectangle {
+.footer {
     padding: 64px;
     background: #000;
     display: flex;
     justify-content: center;
 }
 
-.bottomRectangle ul li {
+.footer ul li {
     display: inline;
     margin: 0 20px;
 }
 
-.img {
-    vertical-align: middle;
-}
