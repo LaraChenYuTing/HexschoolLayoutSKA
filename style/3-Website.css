@@ -1,0 +1,36 @@
+:root {
+    --u: #FFFFFF;
+    --ui: #FBF2F2;
+    --uoo: #000000;
+    --uo1: #AA0601;
+    --uo2: #650300;
+}
+
+body {
+    font-family: "Noto Sans", Roboto, sans-serif;
+}
+
+.header {
+    background: #AA0601;
+    padding: 4px 312px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header .logo img{
+    width: 80px;
+    height: 49px;
+}
+.menu ul{
+    display: flex;
+    gap: 64px;
+}
+.menu ul li{
+   font: normal normal normal 20px/30px Source Han Sans TW;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    display: inline;
+    gap: 64px;
+}
