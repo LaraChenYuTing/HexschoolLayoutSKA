@@ -9,7 +9,11 @@
 body {
     font-family: "Noto Sans", Roboto, sans-serif;
 }
-
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .header {
     background: #AA0601;
     padding: 4px 312px;
@@ -32,5 +36,54 @@ body {
     letter-spacing: 0;
     text-align: left;
     display: inline;
-    gap: 64px;
+}
+.footer{
+    background: #AA0601;
+    padding: 48px 312px 32px 312px;
+    display: flex;
+    flex-direction: column;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer ul{
+    display: flex;
+    gap: 48px;
+}
+.footer ul li{
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-align: left;
+    display: inline;
+}
+.footer img{
+    height: 48px;
+    width: 48px;
+}
+.footer .contact{
+    text-align: left;
+    font: normal normal normal 36px/54px Source Han Sans TW;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+.footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font: normal normal normal 16px/24px Roboto;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    
+}
+.footer .copyright .desc{
+    display: flex;
+    gap: 48px;
+
+}
+.line{
+    margin: 32px 0;
+    border-bottom: 1px solid #FFFFFF;
 }
