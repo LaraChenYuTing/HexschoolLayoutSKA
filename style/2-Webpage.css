@@ -2,16 +2,20 @@ body {
     font-family: Bruno Ace SC;
     background: #000;
 }
-.container{
+
+.container {
+    max-width: 1920px;
     margin: 0 auto;
 }
+
 header {
-    padding: 40px 312px 0 312px;
+    padding: 40px 312px 0;
 }
 
 header ul {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     gap: 61px;
 }
 
@@ -20,15 +24,23 @@ header ul li {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 24px */
+    line-height: 1.5; /* 24px */
+    max-width: 306px;
 }
 
 .area1 {
     display: flex;
-    padding: 72px 312px;
 }
 
-.name {
+.area1 img {
+    margin: 72px 24px 72px 312px;
+    max-width: 636px;
+    max-height: 848px;
+}
+
+.title {
+    max-width: 636px;
+    margin: 232px 312px 232px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,6 +75,7 @@ h1 {
 .contactMeContainer {
     display: flex;
     justify-content: flex-end;
+    height: 48px;
 }
 
 .contactMe {
@@ -73,7 +86,10 @@ h1 {
     background: #FFF;
     justify-content: center;
     align-items: center;
-    width: 185px;
+}
+.contactMe img{
+    max-width: 24px;
+    margin: 0;
 }
 
 .area2 {
@@ -224,25 +240,30 @@ h4 {
     display: flex;
     gap: 24px;
 }
-.proj-introduce-text{
+
+.proj-introduce-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.area5 .contactMeContainer{
+
+.area5 .contactMeContainer {
     display: flex;
     justify-content: flex-start;
 }
-.pic{
+
+.pic {
     display: flex;
     gap: 24px;
 }
-footer{
+
+footer {
     padding: 40px;
     display: flex;
     justify-content: center;
 }
-footer h3{
-   color: #FFFFFF;
-    
+
+footer h3 {
+    color: #FFFFFF;
+
 }
