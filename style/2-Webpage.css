@@ -1,6 +1,7 @@
 body {
     font-family: Bruno Ace SC;
     background: #000;
+    box-sizing: border-box;
 }
 
 .container {
@@ -97,7 +98,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 160px 320px;
+    /*padding: 160px 320px;*/
 }
 
 h4 {
@@ -108,26 +109,36 @@ h4 {
     line-height: 150%; /* 36px */
 }
 
-.introduction {
+.section-left {
+    margin: 160px 24px 318px 312px;
     width: 536px;
 }
 
-.introduction h4 {
+.section-left h4 {
     margin: 36px 0 32px 0;
 }
 
-.introduction ul {
+.section-left ul {
     display: inline-flex;
 }
 
-.introduction img {
+.section-left img {
     height: 98px;
 }
 
+.section-right{
+    margin: 160px 312px 160px 24px;
+    width: 746px;
+    display: flex;
+    gap: 24px;
+}
 .area3 {
     background: #E3E3E3;
     display: flex;
+    align-items: center;
     padding: 160px 312px;
+    width: 1296px;
+    justify-content: space-between;
 
 }
 
@@ -161,7 +172,21 @@ h4 {
 .area3 h2 {
     color: #000;
 }
-
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 328px;
+    width: 636px;
+}
+.card li{
+    width: 274px;
+    height: 116px;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
 .area3 h4 {
     color: #000;
     width: 505px;
@@ -172,35 +197,45 @@ h4 {
 }
 
 .about {
-    margin: 0 0 0 134px;
     width: 526px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
 }
 
 .area4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 96px 312px;
-
 }
-
+.contact{
+    display: flex;
+    align-items: center;
+    width: 658px;
+    margin: 128px 112px 128px 312px;
+    justify-content: space-between;
+}
+.contact h2{
+    width:542px ;
+}
+.contact img{
+    max-width: 100px;
+}
 .social {
     display: flex;
+    justify-content: space-between;
+    margin: 96px 312px 96px 112px;
+    width: 526px;
     gap: 20px;
-    margin: 0 112px;
 }
 
-.social div:hover {
+.social img:hover {
     box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.90), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-
-.social div {
-    border-radius: 40px;
-}
-
 .social img {
-    width: 162px;
+    max-width: 162px;
     height: 162px;
+    border-radius: 40px;
 }
 
 .area5 {
